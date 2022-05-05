@@ -1,0 +1,46 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding: 20px;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+.component {
+    font-family: 'Overpass', sans-serif;
+    background-color: white;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+}
+
+.image {
+    border-radius: 20px;
+    margin: 15px;
+    width: 270px;
+}
+
+p {
+    margin: 16px 23px 45px 23px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+h2 {
+    margin: 16px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.background {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+}
+
+
+html, body {
+    margin: 0;
+}
