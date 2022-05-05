@@ -11,7 +11,6 @@
     border-radius: 30px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
-
 }
 
 .image {
@@ -34,13 +33,19 @@ h2 {
 
 .background {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
     min-height: 100vh;
     background-color: hsl(212, 45%, 89%);
+    align-items: center;
 }
 
+.wraper {
+    flex-grow: 1;
+    align-items: center;
+}
 
 html, body {
     margin: 0;
+
 }
